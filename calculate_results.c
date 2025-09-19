@@ -4,14 +4,16 @@
 
 #include "calculate_results.h"
 
+#include <stdio.h>
+
 
 void user_input() {
     int a, b;
     printf("What numbers do you want to sum up?\n");
     printf("First number: ");
-    scanf("%d", &a)
+    scanf("%d", &a);
     printf("Second number: ");
-    scanf("%d", &b)
+    scanf("%d", &b);
     calculate_sum(a, b);
 }
 
