@@ -6,5 +6,6 @@
 #include "calculate_results.h"
 
 int main() {
-
+    user_input();
+    return 0;
 }
