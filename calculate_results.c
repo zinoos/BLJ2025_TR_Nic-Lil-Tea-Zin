@@ -21,13 +21,13 @@ void choose_operation() {
             user_input_sum();
             break;
         case 2:
-            // user_input_subtract();
+            user_input_subtract();
             break;
         case 3:
             user_input_multiply();
             break;
         case 4:
-            // user_input_divide();
+            user_input_div();
             break;
         case 7:
             user_input_faculty();
@@ -74,7 +74,57 @@ int calculate_sum(int a, int b) {
 
 
 // Subtraction ...
+void user_input_subtract() {
+    int numbers[100];
+    int count = 0;
+    int input;
+    printf("Geben Sie Zahlen ein (beliebigen Buchstaben zum Beenden):\n");
+    while (count < 100) {
+        printf("Zahl %d: ", count + 1);
+        if (scanf("%d", &input) == 1) {
+            numbers[count++] = input;
+        } else {
+            break;
+        }
+    }
 
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF) {}
+
+    if (count == 0) {
+        printf("Keine gültigen Zahlen eingegeben.\n");
+        return;
+    }
+
+    int difference = numbers[0];
+    for (int i = 1; i < count; i++) {
+        difference -= numbers[i];
+    }
+
+    printf("Ergebnis: %d\n", difference);
+}
+
+// Subtraction helper
+int calculate_difference(int a, int b) {
+    int diff = a - b;
+    printf("%d\n", diff);
+    return diff;
+}
+
+// Division ...
+
+void user_input_div()
+{
+    int dividend;
+    int divisor = 0;
+    int result;
+    printf("Geben Sie den Dividenden ein.");
+    scanf("%d", &dividend);
+    printf ("Geben sie den Divisor ein.\n");
+    scanf("%d", &divisor);
+    result = dividend / divisor;
+    printf("Das Resultat der Division ist %d / %d = %d\n",dividend, divisor, result);
+}
 
 //Multiply ...
 void user_input_multiply() {
