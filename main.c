@@ -6,7 +6,6 @@
 #include "calculate_results.h"
 
 int main() {
-    // user_input_sum();
     choose_operation();
     return 0;
 }
