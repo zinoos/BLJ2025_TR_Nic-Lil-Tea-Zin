@@ -6,6 +6,7 @@
 
 #include <stdbool.h>
 #include <stdio.h>
+#include <math.h>
 
 void choose_operation() {
     printf("Choose operation:\n");
@@ -13,7 +14,10 @@ void choose_operation() {
     printf("2. Subtract\n");
     printf("3. Multiply\n");
     printf("4. Divide\n");
-    printf("7. Faculty ");
+    printf("7. Faculty\n");
+    printf("8. Faculty\n");
+    printf("9. Wurzel\n");
+    printf("10. Rock Paper Scissors\n");
     int choice;
     scanf("%d", &choice);
     switch (choice) {
@@ -31,6 +35,15 @@ void choose_operation() {
             break;
         case 7:
             user_input_faculty();
+            break;
+        case 8:
+            user_input_exponents();
+            break;
+        case 9:
+            user_input_sqrt();
+            break;
+        case 10:
+            user_input_rps();
             break;
         default:
             printf("Invalid choice\n");
@@ -92,7 +105,7 @@ void user_input_subtract() {
     while ((c = getchar()) != '\n' && c != EOF) {}
 
     if (count == 0) {
-        printf("Keine gültigen Zahlen eingegeben.\n");
+        printf("Keine gueltigen Zahlen eingegeben.\n");
         return;
     }
 
@@ -118,9 +131,9 @@ void user_input_div()
     int dividend;
     int divisor = 0;
     int result;
-    printf("Geben Sie den Dividenden ein.");
+    printf("Geben Sie den Dividenden ein.\n");
     scanf("%d", &dividend);
-    printf ("Geben sie den Divisor ein.\n");
+    printf ("Geben Sie den Divisor ein.\n");
     scanf("%d", &divisor);
     result = dividend / divisor;
     printf("Das Resultat der Division ist %d / %d = %d\n",dividend, divisor, result);
@@ -128,15 +141,12 @@ void user_input_div()
 
 //Multiply ...
 void user_input_multiply() {
-    int numbers[100];
     int a,b;
-    int input;
     printf ("Zahl eingeben: ");
     scanf ("%d", &a);
     printf ("Zahl eingeben: ");
     scanf ("%d", &b);
     calculate_multiply(a, b);
-
 }
 int calculate_multiply(int a, int b) {
     int multiply = a * b;
@@ -150,20 +160,88 @@ void user_input_faculty() {
     printf ("1 bis ");
     scanf ("%d", &n);
     calculate_faculty(n);
-
 }
 int calculate_faculty(int n) {
     int faculty = n;
     if (n <= 0) {
-        printf("Fakultaet ist mit negative Zahlen nicht definiert.\n");
+        printf("Fakultaet ist mit negativen Zahlen nicht definiert.\n");
         return 0;
     }
-
     for (int i = 2; i < n; i++) {
         faculty *= i;
-
-
     }
     printf("Die Fakultaet von %d ist %d\n",n, faculty);
     return faculty;
+}
+
+// Exponents
+void user_input_exponents() {
+    double base, exponent;
+    printf("Geben Sie die Basis ein: ");
+    if (scanf("%lf", &base) != 1) {
+        printf("Ungueltige Eingabe fuer die Basis.\n");
+        return;
+    }
+    printf("Geben Sie den Exponenten ein: ");
+    if (scanf("%lf", &exponent) != 1) {
+        printf("Ungueltige Eingabe fuer den Exponenten.\n");
+        return;
+    }
+    double result = pow(base, exponent);
+    printf("Ergebnis: %.6f\n", result);
+}
+double calculate_power(double base, double exponent) {
+    double result = pow(base, exponent);
+    printf("%.6f\n", result);
+    return result;
+}
+
+
+// Quadratwurzel ziehen (case 9)
+void user_input_sqrt() {
+    double zahl;
+    printf("Geben Sie eine Zahl ein: ");
+    if (scanf("%lf", &zahl) != 1) {
+        printf("Ungueltige Eingabe.\n");
+        return;
+    }
+    if (zahl < 0) {
+        printf("Quadratwurzel von negativen Zahlen ist nicht definiert.\n");
+        return;
+    }
+    double wurzel = sqrt(zahl);
+    printf("Die Quadratwurzel von %.6f ist %.6f\n", zahl, wurzel);
+}
+double calculate_sqrt(double zahl) {
+    if (zahl < 0) {
+        printf("Quadratwurzel von negativen Zahlen ist nicht definiert.\n");
+        return -1;
+    }
+    double wurzel = sqrt(zahl);
+    printf("%.6f\n", wurzel);
+    return wurzel;
+}
+
+// Rock Paper Scissors (case 10)
+void user_input_rps() {
+    const char* optionen[] = {"Schere", "Stein", "Papier"};
+    int spielerWahl;
+    printf("Waehlen Sie: 0 = Schere, 1 = Stein, 2 = Papier\n");
+    printf("Ihre Wahl: ");
+    if (scanf("%d", &spielerWahl) != 1 || spielerWahl < 0 || spielerWahl > 2) {
+        printf("Ungueltige Eingabe.\n");
+        return;
+    }
+    srand((unsigned int)time(NULL));
+    int computerWahl = rand() % 3;
+    printf("Computer waehlt: %s\n", optionen[computerWahl]);
+    if (spielerWahl == computerWahl) {
+        printf("Unentschieden!\n");
+    } else if ((spielerWahl == 0 && computerWahl == 2) ||
+               (spielerWahl == 1 && computerWahl == 0) ||
+               (spielerWahl == 2 && computerWahl == 1)) {
+        printf("Sie gewinnen!\n");
+    } else {
+        printf("Computer gewinnt!\n");
+    }
 }

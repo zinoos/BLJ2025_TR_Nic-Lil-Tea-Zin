@@ -14,5 +14,6 @@ int calculate_multiply(int a, int b);
 void user_input_subtract();
 int calculate_difference(int a, int b);
 void user_input_div();
+void user_input_exponents();
 
 #endif //C_CALCULATOR_CALCULATE_RESULTS_H
