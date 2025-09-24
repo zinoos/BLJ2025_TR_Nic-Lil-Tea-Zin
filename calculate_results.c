@@ -89,7 +89,7 @@ void user_input_subtract() {
     while ((c = getchar()) != '\n' && c != EOF) {}
 
     if (count == 0) {
-        printf("Keine gültigen Zahlen eingegeben.\n");
+        printf("Keine gueltigen Zahlen eingegeben.\n");
         return;
     }
 
@@ -115,13 +115,13 @@ void user_input_exponents() {
     double base, exponent;
     printf("Geben Sie die Basis ein: ");
     if (scanf("%lf", &base) != 1) {
-        printf("Ungültige Eingabe für die Basis.\n");
+        printf("Ungueltige Eingabe für die Basis.\n");
         return;
     }
 
     printf("Geben Sie den Exponenten ein: ");
     if (scanf("%lf", &exponent) != 1) {
-        printf("Ungültige Eingabe für den Exponenten.\n");
+        printf("Ungueltige Eingabe für den Exponenten.\n");
         return;
     }
 
