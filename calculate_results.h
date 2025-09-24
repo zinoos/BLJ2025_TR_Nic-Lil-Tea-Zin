@@ -5,6 +5,7 @@
 #ifndef C_CALCULATOR_CALCULATE_RESULTS_H
 #define C_CALCULATOR_CALCULATE_RESULTS_H
 
-int calculate_sum();
+void user_input_sum();
+int calculate_sum(int a, int b);
 
 #endif //C_CALCULATOR_CALCULATE_RESULTS_H
