@@ -35,30 +35,31 @@ void choose_operation() {
 }
 
 
-void user_input_sum() {
-    int a, b, c, d;
-    bool stop = false;
-    printf("Type any letter to stop");
-    int counter = 0;
-    while (stop == false) {
-        if (stop == true || counter <= 4) {
-            int result = a + b + c + d;
-            printf("Result: %d", result);
-        }
-        counter = counter +1;
-        printf("\nNumber %d: ", counter);
-        scanf("%d", &b);
 
-        if (counter == 1) {
-            scanf("%d", &a);
-        } else if (counter == 2) {
-            scanf("%d", &b);
-        } else if (counter == 3) {
-            scanf("%d", &c);
-        } else if (counter == 4) {
-            scanf("%d", &d);
+
+// Addition
+
+void user_input_sum() {
+    int numbers[100];
+    int count = 0;
+    int input;
+    printf("Geben Sie Zahlen ein (beliebigen Buchstaben zum Beenden):\n");
+    while (count < 100) {
+        printf("Zahl %d: ", count + 1);
+        if (scanf("%d", &input) == 1) {
+            numbers[count++] = input;
+        } else {
+            break;
         }
     }
+
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF) {}
+    int sum = 0;
+    for (int i = 0; i < count; i++) {
+        sum += numbers[i];
+    }
+    printf("Ergebnis: %d\n", sum);
 }
 
 int calculate_sum(int a, int b) {
@@ -67,3 +68,5 @@ int calculate_sum(int a, int b) {
     return sum;
 }
 
+
+// Subtraction ...
