@@ -8,4 +8,11 @@
 void user_input_sum();
 int calculate_sum(int a, int b);
 
+void user_input_subtract();
+int calculate_difference(int a, int b);
+
+void user_input_exponents();
+double calculate_power(double base, double exponent);
+
+
 #endif //C_CALCULATOR_CALCULATE_RESULTS_H
