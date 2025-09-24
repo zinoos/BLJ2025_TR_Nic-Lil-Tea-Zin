@@ -11,7 +11,6 @@ void user_input_faculty();
 int calculate_faculty(int n);
 void user_input_multiply();
 int calculate_multiply(int a, int b);
-void user_input_div();
 
 void user_input_subtract();
 int calculate_difference(int a, int b);

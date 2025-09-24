@@ -26,7 +26,7 @@ void choose_operation() {
             // user_input_multiply();
             break;
         case 4:
-            user_input_div();
+            // user_input_divide();
             break;
         default:
             printf("Invalid choice\n");
@@ -69,17 +69,4 @@ int calculate_sum(int a, int b) {
 }
 
 
-// Subtraction ..
-//Division
-void user_input_div()
-{
-    int dividend;
-    int divisor = 0;
-    int result;
-    printf("Geben Sie den Dividenden ein.");
-    scanf("%d", &dividend);
-    printf ("Geben sie den Divisor ein.\n");
-    scanf("%d", &divisor);
-    result = dividend / divisor;
-    printf("Das Resultat der Division ist %d / %d = %d\n",dividend, divisor, result);
-}
+// Subtraction ...
