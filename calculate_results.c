@@ -13,6 +13,7 @@ void choose_operation() {
     printf("2. Subtract\n");
     printf("3. Multiply\n");
     printf("4. Divide\n");
+    printf("7. Faculty ");
     int choice;
     scanf("%d", &choice);
     switch (choice) {
@@ -23,10 +24,13 @@ void choose_operation() {
             // user_input_subtract();
             break;
         case 3:
-            // user_input_multiply();
+            user_input_multiply();
             break;
         case 4:
             // user_input_divide();
+            break;
+        case 7:
+            user_input_faculty();
             break;
         default:
             printf("Invalid choice\n");
@@ -70,3 +74,46 @@ int calculate_sum(int a, int b) {
 
 
 // Subtraction ...
+
+
+//Multiply ...
+void user_input_multiply() {
+    int numbers[100];
+    int a,b;
+    int input;
+    printf ("Zahl eingeben: ");
+    scanf ("%d", &a);
+    printf ("Zahl eingeben: ");
+    scanf ("%d", &b);
+    calculate_multiply(a, b);
+
+}
+int calculate_multiply(int a, int b) {
+    int multiply = a * b;
+    printf("Ergebnis: %d\n", multiply);
+    return multiply;
+
+}
+// Fakulität ...
+void user_input_faculty() {
+    int n;
+    printf ("1 bis ");
+    scanf ("%d", &n);
+    calculate_faculty(n);
+
+}
+int calculate_faculty(int n) {
+    int faculty = n;
+    if (n <= 0) {
+        printf("Fakultaet ist mit negative Zahlen nicht definiert.\n");
+        return 0;
+    }
+
+    for (int i = 2; i < n; i++) {
+        faculty *= i;
+
+
+    }
+    printf("Die Fakultaet von %d ist %d\n",n, faculty);
+    return faculty;
+}
