@@ -108,6 +108,8 @@ int calculate_difference(int a, int b) {
     return diff;
 }
 
+
+
 // Exponents
 void user_input_exponents() {
     double base, exponent;
