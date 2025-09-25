@@ -5,20 +5,20 @@
 #ifndef C_CALCULATOR_CALCULATE_RESULTS_H
 #define C_CALCULATOR_CALCULATE_RESULTS_H
 
-void user_input_sum();
-int calculate_sum(int a, int b);
-void user_input_faculty();
-int calculate_faculty(int n);
-void user_input_multiply();
-int calculate_multiply(int a, int b);
-void user_input_subtract();
-int calculate_difference(int a, int b);
-void user_input_div();
-void user_input_exponents();
-double calculate_power(double base, double exponent);
-void user_input_sqrt();
-double calculate_sqrt(double zahl);
-void user_input_rps();
-void choose_operation();
+void input_addition();
+int add(int a, int b);
+void input_factorial();
+int factorial(int n);
+void input_multiplication();
+int multiply(int a, int b);
+void input_subtraction();
+int subtract(int a, int b);
+void input_division();
+void input_exponentiation();
+double power(double base, double exponent);
+void input_square_root();
+double square_root(double number);
+void input_rock_paper_scissors();
+void select_operation();
 
 #endif //C_CALCULATOR_CALCULATE_RESULTS_H

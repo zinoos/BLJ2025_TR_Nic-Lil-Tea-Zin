@@ -6,6 +6,6 @@
 #include "calculate_results.h"
 
 int main() {
-    choose_operation();
+    select_operation();
     return 0;
 }

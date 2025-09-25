@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/calculate_results.h">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/calculate_results.h" />
+              <option name="originalContent" value="//&#10;// Created by zinob on 19.09.2025.&#10;//&#10;&#10;#ifndef C_CALCULATOR_CALCULATE_RESULTS_H&#10;#define C_CALCULATOR_CALCULATE_RESULTS_H&#10;&#10;void user_input_sum();&#10;int calculate_sum(int a, int b);&#10;void user_input_faculty();&#10;int calculate_faculty(int n);&#10;void user_input_multiply();&#10;int calculate_multiply(int a, int b);&#10;void user_input_subtract();&#10;int calculate_difference(int a, int b);&#10;void user_input_div();&#10;void user_input_exponents();&#10;double calculate_power(double base, double exponent);&#10;void user_input_sqrt();&#10;double calculate_sqrt(double zahl);&#10;void user_input_rps();&#10;void choose_operation();&#10;&#10;#endif //C_CALCULATOR_CALCULATE_RESULTS_H" />
+              <option name="updatedContent" value="//&#10;// Created by zinob on 19.09.2025.&#10;//&#10;&#10;#ifndef C_CALCULATOR_CALCULATE_RESULTS_H&#10;#define C_CALCULATOR_CALCULATE_RESULTS_H&#10;&#10;void input_addition();&#10;int add(int a, int b);&#10;void input_factorial();&#10;int factorial(int n);&#10;void input_multiplication();&#10;int multiply(int a, int b);&#10;void input_subtraction();&#10;int subtract(int a, int b);&#10;void input_division();&#10;void input_exponentiation();&#10;double power(double base, double exponent);&#10;void input_square_root();&#10;double square_root(double number);&#10;void input_rock_paper_scissors();&#10;void select_operation();&#10;&#10;#endif //C_CALCULATOR_CALCULATE_RESULTS_H" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/main.c">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/main.c" />
+              <option name="originalContent" value="//&#10;// Created by zinob on 19.09.2025.&#10;//&#10;&#10;#include &lt;stdio.h&gt;&#10;#include &quot;calculate_results.h&quot;&#10;&#10;int main() {&#10;    choose_operation();&#10;    return 0;&#10;}&#10;" />
+              <option name="updatedContent" value="//&#10;// Created by zinob on 19.09.2025.&#10;//&#10;&#10;#include &lt;stdio.h&gt;&#10;#include &quot;calculate_results.h&quot;&#10;&#10;int main() {&#10;    select_operation();&#10;    return 0;&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
