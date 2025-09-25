@@ -1,2 +1,11 @@
 # Dokumentation Taschenrechner in C
-## Von: Tea, Liliane, Nico, Zino
+##### Von: Tea, Liliane, Nico, Zino
+
+
+### IPERKA
+**INFORMIEREN**: 
+**PLANEN**:
+**ENTSCHEIDEN**:
+**REALISIERUNG**:
+**KONTROLLIEREN**:
+**AUSWERTEN**:
