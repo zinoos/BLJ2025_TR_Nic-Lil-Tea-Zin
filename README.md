@@ -40,7 +40,7 @@ Funktionen programmieren
 
 Testfälle:
 
-0. NR.             Test.            Eingabe        Erwartet      Ergebnis      Status
+NR.         Test.        Eingabe    Erwartet Ergebnis  Status
 1.        Addieren        6 + 2        8        8        gut
 2.       Subtrahieren     6 - 2        4        4        gut
 3.      Multiplizieren    6 * 2       12       12        gut
