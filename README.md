@@ -1,2 +1,43 @@
 # Taschenrechner in C
-## Von: Tea, Liliane, Nico, Zino
+
+# Dokumentation Taschenrechner in C
+##### Von: Tea, Liliane, Nico, Zino
+
+
+### IPERKA
+**INFORMIEREN**:
+Ziel:Taschenrechner programmieren mit allen Wichtigen funktionen.
+
+**PLANEN**:
+Skitze
+
+#### **ENTSCHEIDEN**:
+Wer macht was?
+LILIANE : Dividieren / Strucktur
+NICO : Multiplizieren / Fakultät
+TEA : Exponenten / Subtrahieren
+ZINO : Main / Addieren / STP
+
+#### **REALISIERUNG**:
+Header verbinden
+Operatoren implementieren
+Funktionen programmieren
+
+#### **KONTROLLIEREN**:
+Testfälle:
+NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
+1.        Addieren        6 + 2        8        8        gut
+2.       Subtrahieren     6 - 2        4        4        gut
+3.      Multiplizieren    6 * 2       12       12        gut
+4.        Dividieren      6 / 2        3        3        gut
+5.         Exponent       6 ^2        36       36        gut
+6.         Wurlzeln      sqrt(9)       3        3        gut
+7.        Fakultät         5!        120    ERROR     falsch
+8.      Fakultät 2         5!        120    120          gut
+
+#### **AUSWERTEN**:
+Siehe Andere Dokumente
+[Liliane]()
+[Nico](https://github.com/zinoos/BLJ2025_TR_Nic-Lil-Tea-Zin/commit/5addb610f606d3d0457dfbe8132fe52c52123c33)
+[Tea]()
+[Zino](https://github.com/zinoos/BLJ2025_TR_Nic-Lil-Tea-Zin/commit/317408beaeb36019c8fa0090726c76fb4aadca53)
