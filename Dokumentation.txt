@@ -3,9 +3,24 @@
 
 
 ### IPERKA
-**INFORMIEREN**: 
+**INFORMIEREN**:
+Ziel:Taschenrechner programmieren mit allen Wichtigen funktionen.
+
 **PLANEN**:
+Skitze
+
 **ENTSCHEIDEN**:
+Wer macht was?
+LILIANE : Dividieren / Strucktur
+NICO : Multiplizieren / Fakultät
+TEA : Exponenten / Subtrahieren
+ZINO : Main / Addieren / STP
+
 **REALISIERUNG**:
+Header verbinden
+
+Funktionen programmieren
+Überprüfen
 **KONTROLLIEREN**:
+
 **AUSWERTEN**:
