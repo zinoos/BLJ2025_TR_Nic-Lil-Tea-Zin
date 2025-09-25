@@ -1,0 +1,10 @@
+## Auswertung von Zino
+
+1. Zeitplan: Gut, genügend Zeit
+2. Was hat gut funktioniert: Aufteilung der Arbeit, jeder hat etwas gelernt
+3. Wo gab es Schwierigkeiten: Schwierigkeiten mit dem Merge, viele Merge conflicts
+4. Geleisteten Beitrag: Gut, viele funktionen implementiert
+5. Gesamtleistung der Gruppe: Sehr gut, resultat ist toll
+6. Kommunikation der Gruppe: Gut, wir haben uns gegenseitig geholfen und alles erklärt
+7. Bei der nächsten Gruppenarbeit beibehalten: Aufhaben aufteilung, Zusammen arbeit
+8. Bei der nächsten Gruppenarbeit verbessern: Mehr zwischen durch Pushen
