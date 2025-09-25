@@ -4,12 +4,13 @@
 ##### Von: Tea, Liliane, Nico, Zino
 
 
-### IPERKA
+## IPERKA
 **INFORMIEREN**:
 
-Ziel:
+***Ziel:**
 
 Taschenrechner programmieren mit allen Wichtigen funktionen.
+Keine Fehler / Bugs
 
 **PLANEN**:
 
@@ -17,7 +18,7 @@ Skitze
 
 #### **ENTSCHEIDEN**:
 
-Wer macht was?
+**Wer macht was?**
 
 LILIANE : Dividieren / Strucktur
 
@@ -38,7 +39,7 @@ Funktionen programmieren
 #### **KONTROLLIEREN**:
 
 Testfälle:
-NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
+0. NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
 1.        Addieren        6 + 2        8        8        gut
 2.       Subtrahieren     6 - 2        4        4        gut
 3.      Multiplizieren    6 * 2       12       12        gut
@@ -50,8 +51,12 @@ NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
 
 #### **AUSWERTEN**:
 
-Siehe Andere Dokumente
+**Siehe Andere Dokumente:**
+
 [Liliane]()
+
 [Nico](https://github.com/zinoos/BLJ2025_TR_Nic-Lil-Tea-Zin/commit/5addb610f606d3d0457dfbe8132fe52c52123c33)
+
 [Tea](https://github.com/zinoos/BLJ2025_TR_Nic-Lil-Tea-Zin/commit/081b9aed435f213acf46f4446601af06a63a3432)
+
 [Zino](https://github.com/zinoos/BLJ2025_TR_Nic-Lil-Tea-Zin/commit/317408beaeb36019c8fa0090726c76fb4aadca53)
