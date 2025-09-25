@@ -7,12 +7,12 @@
 ## IPERKA
 **INFORMIEREN**:
 
-**Ziel:**
+### **Ziel:**
 
 Taschenrechner programmieren mit allen Wichtigen funktionen.
 Keine Fehler / Bugs
 
-**PLANEN**:
+### **PLANEN**:
 
 Skitze
 
