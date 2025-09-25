@@ -9,19 +9,19 @@ Ziel:Taschenrechner programmieren mit allen Wichtigen funktionen.
 **PLANEN**:
 Skitze
 
-**ENTSCHEIDEN**:
+#### **ENTSCHEIDEN**:
 Wer macht was?
 LILIANE : Dividieren / Strucktur
 NICO : Multiplizieren / Fakultät
 TEA : Exponenten / Subtrahieren
 ZINO : Main / Addieren / STP
 
-**REALISIERUNG**:
+#### **REALISIERUNG**:
 Header verbinden
 Operatoren implementieren
 Funktionen programmieren
 
-**KONTROLLIEREN**:
+#### **KONTROLLIEREN**:
 Testfälle:
 NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
 1.        Addieren        6 + 2        8        8        gut
@@ -33,4 +33,7 @@ NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
 7.        Fakultät         5!        120    ERROR     falsch
 8.      Fakultät 2         5!        120    120          gut
 
-**AUSWERTEN**:
+#### **AUSWERTEN**:
+Siehe Andere Dokumente
+
+
