@@ -9,32 +9,33 @@
 
 ### **Ziel:**
 
-Taschenrechner programmieren mit allen Wichtigen funktionen.
-Keine Fehler / Bugs
+- Taschenrechner programmieren mit allen Wichtigen funktionen.
+- Keine Fehler / Bugs
 
 ### **PLANEN**:
 
-Skitze
+- Skitze
+- Welche Operatoren und wie
 
 ### **ENTSCHEIDEN**:
 
 #### **Wer macht was?**
 
-LILIANE : Dividieren / Strucktur
+- LILIANE : Dividieren / Strucktur
 
-NICO : Multiplizieren / Fakultät
+- NICO : Multiplizieren / Fakultät
 
-TEA : Exponenten / Subtrahieren
+- TEA : Exponenten / Subtrahieren
 
-ZINO : Main / Addieren / STP
+- ZINO : Main / Addieren / STP
 
 ### **REALISIERUNG**:
 
-Header verbinden
+- Header verbinden
 
-Operatoren implementieren
+- Operatoren implementieren
 
-Funktionen programmieren
+- Funktionen programmieren
 
 ### **KONTROLLIEREN**:
 
@@ -48,7 +49,7 @@ Funktionen programmieren
 5.         Exponent       6 ^2        36       36        gut
 6.         Wurlzeln      sqrt(9)       3        3        gut
 7.        Fakultät         5!        120    ERROR     falsch
-8.      Fakultät 2         5!        120    120          gut
+8.      Fakultät 2         5!        120      120        gut
 
 ### **AUSWERTEN**:
 
