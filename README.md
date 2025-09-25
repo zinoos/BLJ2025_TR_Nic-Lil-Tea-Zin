@@ -7,7 +7,7 @@
 ## IPERKA
 **INFORMIEREN**:
 
-***Ziel:**
+**Ziel:**
 
 Taschenrechner programmieren mit allen Wichtigen funktionen.
 Keine Fehler / Bugs
@@ -39,6 +39,7 @@ Funktionen programmieren
 #### **KONTROLLIEREN**:
 
 Testfälle:
+
 0. NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
 1.        Addieren        6 + 2        8        8        gut
 2.       Subtrahieren     6 - 2        4        4        gut
