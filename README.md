@@ -16,9 +16,9 @@ Keine Fehler / Bugs
 
 Skitze
 
-#### **ENTSCHEIDEN**:
+### **ENTSCHEIDEN**:
 
-**Wer macht was?**
+#### **Wer macht was?**
 
 LILIANE : Dividieren / Strucktur
 
@@ -28,7 +28,7 @@ TEA : Exponenten / Subtrahieren
 
 ZINO : Main / Addieren / STP
 
-#### **REALISIERUNG**:
+### **REALISIERUNG**:
 
 Header verbinden
 
@@ -36,11 +36,11 @@ Operatoren implementieren
 
 Funktionen programmieren
 
-#### **KONTROLLIEREN**:
+### **KONTROLLIEREN**:
 
-Testfälle:
+#### **Testfälle:**
 
-NR.         Test.        Eingabe    Erwartet Ergebnis  Status
+0.         Test.        Eingabe    Erwartet Ergebnis  Status
 1.        Addieren        6 + 2        8        8        gut
 2.       Subtrahieren     6 - 2        4        4        gut
 3.      Multiplizieren    6 * 2       12       12        gut
@@ -50,7 +50,7 @@ NR.         Test.        Eingabe    Erwartet Ergebnis  Status
 7.        Fakultät         5!        120    ERROR     falsch
 8.      Fakultät 2         5!        120    120          gut
 
-#### **AUSWERTEN**:
+### **AUSWERTEN**:
 
 **Siehe Andere Dokumente:**
 
