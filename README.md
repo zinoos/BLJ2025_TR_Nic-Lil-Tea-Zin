@@ -6,24 +6,37 @@
 
 ### IPERKA
 **INFORMIEREN**:
-Ziel:Taschenrechner programmieren mit allen Wichtigen funktionen.
+
+Ziel:
+
+Taschenrechner programmieren mit allen Wichtigen funktionen.
 
 **PLANEN**:
+
 Skitze
 
 #### **ENTSCHEIDEN**:
+
 Wer macht was?
+
 LILIANE : Dividieren / Strucktur
+
 NICO : Multiplizieren / Fakultät
+
 TEA : Exponenten / Subtrahieren
+
 ZINO : Main / Addieren / STP
 
 #### **REALISIERUNG**:
+
 Header verbinden
+
 Operatoren implementieren
+
 Funktionen programmieren
 
 #### **KONTROLLIEREN**:
+
 Testfälle:
 NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
 1.        Addieren        6 + 2        8        8        gut
@@ -36,6 +49,7 @@ NR.         Test.        Eingabe    Erwartet  Ergebnis  Status
 8.      Fakultät 2         5!        120    120          gut
 
 #### **AUSWERTEN**:
+
 Siehe Andere Dokumente
 [Liliane]()
 [Nico](https://github.com/zinoos/BLJ2025_TR_Nic-Lil-Tea-Zin/commit/5addb610f606d3d0457dfbe8132fe52c52123c33)
