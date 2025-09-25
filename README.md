@@ -1,2 +1,2 @@
-# Dokumentation Taschenrechner in C
+# Taschenrechner in C
 ## Von: Tea, Liliane, Nico, Zino
